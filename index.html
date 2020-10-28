@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>沼田直純 ポートフォリオサイト</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="image/icomoon/style.css">
+  <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+  <link rel="stylesheet" href="css/slick.css" type="text/css">
+  <link rel="shortcut icon" href="image/logo.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+  <script src="js/main_blog.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="js/slick.js" type="text/javascript"></script>
+  <script src="js/slide.js" type="text/javascript"></script>
+</head>
+
+<body class="preload">
+  <div class="top_wrapper hero">
+    <div class="top_message">
+      <div class="red-bold">転職活動中です！</div>
+      <p>
+        希望職種：　　バックエンドエンジニア<br>
+        学習中言語：　Ruby,Rails<br>
+        希望勤務地：　東京<br>
+      </p>
+      <div class="lead">興味を持って頂きましたらご連絡ください！</div>
+    </div>
+  </div>
+
+  <div class="background_color">
+    <header class="header_nav flex space">
+      <h1 class="top_logo">
+        <a href="#">沼田直純 Portfolio Site</a>
+      </h1>
+
+      <nav class="menu open flex">
+        <ul class="flex hover_blue">
+          <li><a href="#section1">about me</a></li>
+          <li><a href="#section2">Rails</a></li>
+          <li><a href="#section3">Others</a></li>
+        </ul>
+      </nav>
+
+      <!--ハンバーガーメニューの中-->
+      <nav class="menu" id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+          <div class="side_wrapper">
+            <div class="side_top">
+              <p class="profile_top">カテゴリ</p>
+            </div>
+            <ul class="hover_blue">
+              <li><a href="#section1">about me</a></li>
+              <li><a href="#section2">Rails</a></li>
+              <li><a href="#section3">Others</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="text-center pt_70" id="section1">
+      <div class="front_text">about me<h2 class="back_text">about me</h2>
+      </div>
+      <div class="container">
+
+        <div class="left_space">
+          <img src="image/naozumi.jpg" class="profile_image" alt="沼田　直純　(ぬまた　なおずみ)">
+          <div class="sns">
+            <ul class="text_center">
+              <li><a href="https://twitter.com/naozuminumata" class="twitter" target="_blank">Twitter</a></li>
+              <li><a href="https://github.com/naozuminumata" class="github" target="_blank">GitHub</a></li>
+              <li><a href="https://qiita.com/naozuminumata" class="Qiita" target="_blank">Qiita</a></li>
+              <li><a href="mailto:naozumi225@gmail.com" class="email" target="_blank">E-mail</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="info">
+              <h3 class="top_info">生年月日</h3>
+              <p>　
+                1991年2月25日生まれ (29歳)
+              </p>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-walking"></i>
+            </div>
+            <div class="info">
+              <h3 class="top_info">経歴</h3>
+              <ul>
+                <li>
+                  ・2015年3月： 創価大学大学院 (博士前期課程) 工学研究科 生命情報工学専攻 修了<br>
+                  　　　　　　　生命情報工学修士（修士号）取得
+                  <div class="indent">
+                    学部生時代の研究課題を自分の手で完結させたいと考え，博士前期課程に進学しました。<br>
+                    DNAを組み換えてタンパク質を発現させることで新規機能を持つ機能性タンパク質の作成に携わりました。<br>
+                    研究目的は医療現場で使用されることを想定したバイオチップで用いる部品を作成することです。<br>
+                    物質を輸送するタンパク質であるキネシンのDNAを組み換えることで目的の物質だけを吸着し、荷物を運ぶ機能性タンパク質を作成することに成功した。<br>
+                    当時の課題は，目的の物質を吸着させて運ばせることが中々できなかったこと。<br>
+                    それに対し，ビオチン-アビジンによる強い結合に着目し、実際に荷物を運ばせることに成功しました。<br>
+                    実験を証明するために、GFPと呼ばれる光る物質を荷物に見立てて、光る物質がレール状に動くことで荷物を運べていることを証明しました。<br>
+                    真剣に課題と向き合い、何通りもの条件を検討し実験系を確立しました。<br>
+                    <span class="red-bold">答えが確立されていない課題に対して解決策を模索し解決する問題解決能力</span>が身につきました。
+                  </div>
+                </li>
+
+                <li>
+                  ・2015年4月： 株式会社モスフードサービス 就職<br>
+
+                  <div class="indent">
+                    3ヶ月の本部研修後、約4年半の間、直営店の店舗勤務に配属しました。<br>
+                    この期間に副店長、店長職を経験しました。<br>
+                    発注から原価管理、人員管理、シフト作成、売上げを向上させるための企画など、一通り任せて頂きました。<br>
+                    強く印象に残っているエピソードとしては、店長として2店舗目に配属となった店舗での出来事です。<br>
+                    その店舗では裏口付近にゴミ庫があるのですが、ゴミ庫の衛生管理が疎かになっており、ゴミを出す度に高確率でネズミと出くわすほど不衛生な状態でした。<br>
+                    私は衛生管理はお客様に見えない部分でも徹底したいという気持ちと、また従業員もゴミを出すのが億劫になるほど酷かったので、<br>
+                    毎日1回はブラシを使った清掃をルーティーンに組み込み、見違えるほどゴミ庫と裏口の通路が綺麗にすることに成功しました。<br>
+                    やり方としては、<br>
+                    ①ネズミが近寄りにくい環境になるよう清掃業者と相談<br>
+                    ②普段から清掃して衛生状態を保つために、高圧ジェットなど掃除用具を準備、<br>
+                    　そしてより簡単にできるように改善<br>
+                    ③自らが毎日清掃する<br>
+                    ④従業員一人ひとりに理由を説明して清掃することをお願いする<br>
+                    この経験を経たことで、何気ないエピソードではありますが、<br>
+                    <span class="red-bold">自分が主体的に動いて周りを巻き込んで動かすことの大切さと楽しさ</span>を学び、<br>
+                    実践して仕事をやり切ることが出来ました。<br>
+                  </div>
+                </li>
+                <li>
+                  ・2019年11月 ： 株式会社AEVIC システム開発部 就職
+                  <div class="indent">
+                    プログラミングスキルを本格的に仕事として学びたいと考え、IT企業に就職。<br>
+                    HTML, CSS, javascript, Javaを使用した3ヶ月のチーム研修を経て、<br>
+                    客先常駐ではありますが、SQLを用いたデータの管理を行う業務を約1年ほど経験しました。<br>
+                    <span class="red-bold">GitBucketを用いたチーム開発を経験し、現場ではSQLによるデータ管理の扱いに慣れました。</span><br>
+                    また、仕事以外でも
+                    <span class="red-bold">RubyやAWSを使用したアプリ開発をすることで技術力を高める努力</span><br>
+                    を継続しております。<br>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-hand-point-up"></i>
+            </div>
+            <div class="info">
+              <h3 class="top_info">学習したプログラミングスキル</h3>
+              <p class="red-bold">2019年11月1日から現在まで継続して学習を続けています。</p>
+              <ul>
+                <li>・HTML, CSS, SCSS</li>
+                <li>・JavaScript, jQuery</li>
+                <li>・PHP, Laravel</li>
+                <li>・Ruby, Ruby on Rails</li>
+                <li>・Java</li>
+                <li>・Git, GitHub</li>
+              </ul>
+              <p>※成果物については下記参照ください</p>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-pen-nib"></i>
+            </div>
+            <div class="info">
+              <h3 class="top_info">どの様な業務をしたいか</h3>
+              <p>
+                <span class="red-bold">人が抱える課題を解決するためのプロダクト開発</span>に携わりたいです。<br>
+                ・常にユーザーが使いやすいサービスを目指します<br>
+                ・より多くのユーザーに喜んでもらえるサービスを目指します<br>
+              </p>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-thumbs-up"></i>
+            </div>
+            <div id="future" class="info">
+              <h3 class="top_info">どの様なエンジニアになりたいか</h3>
+              <p>
+                接客業を通して、人の役に立つことに喜びを感じました。<br>
+                長年続けた接客業を辞めてまでIT企業を志た理由は，<span class="red-bold">「IT
+                  を駆使したサービスの開発・運用に携わる事で，より多くの人の役に立つ事ができる」</span>と考えたからです。
+              </p>
+              <section>
+                <h4>1.課題解決</h4>
+                <p>
+                  暮らしや働き方をより便利に，効率的にする事ができるのがITだと考えています。<br>
+                  従来のやり方を考え直し，より生産的に改善出来るようなサービスを提案するために積極的に行動していきます。<br>
+                </p>
+              </section>
+              <section>
+                <h4>2.自ら考えてアイデアを実践する</h4>
+                <p>
+                  エンジニアの良いところは、思い描いたものを制作し、提供できるところです。<br>
+                  ユーザーの思いや欲しい機能をアプリとして実現できるようなエンジニアになります。<br>
+                </p>
+              </section>
+              <section>
+                <h4>3.自己研鑽を怠らない</h4>
+                <p>
+                  現状に満足しているようではその時点で成長が止まってしまいます。<br>
+                  より良いパフォーマンスを出せるように、昨日より今日、今日より明日、また一歩前進できたと<br>
+                  言えるように、日々、技術力に磨きをかけていきます。
+                </p>
+              </section>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center padding_top" id="section2">
+      <div class="front_text">Ruby on Rails<h2 class="back_text">Ruby on Rails</h2>
+      </div>
+      <h3 class="content_title">MyBooks</h3>
+      <div class="container">
+
+        <div class="left_space">
+          <p>制作したアプリへのリンク</p>
+          <a href="https://www.my-books.net" target="_blank"><img src="image/my-books.png" alt="MyBooks"></a>
+          <p>MyBooksの実行動画</p>
+          <video autoplay muted playsinline controls src="image/my-books.mov" class="capture_video"></video>
+        </div>
+
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">アプリの概要</h4>
+              <p class="red-bold">
+                読んだ本を記録したり、おすすめの書籍を紹介しあうことができる本好きのためのサイトです<br>
+                <br>
+              </p>
+              <ul>
+                <li>・おすすめ本紹介アプリ</li>
+                <li>・読んだ本に対して感想や評価を自由に記入して投稿できる</li>
+                <li>・利用者が投稿した内容が一覧で見れる</li>
+                <li>・本の画像からAmazonの購入ページに飛ぶことが可能</li>
+                <li>・非同期処理によるいいね機能あり</li>
+                <li>・投稿した数（読んだ本の数）によってランキングする機能あり</li>
+              </ul>
+              <small>※スマホでも見れるようにレスポンシブ対応しております</small>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">ソースコード</h4>
+              <a href="https://github.com/naozuminumata/my-books" class="github blue-link"
+                target="_blank">GitHub(MyBooks)</a>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">こだわりポイント</h4>
+              <ul>
+                <li>・初めて Ruby & Rails を使用して作成したアプリ</li>
+                <li>・データベースからのデータの取り出しと加工に Ruby & Rails を使用</li>
+                <li>・ログインしないと閲覧できないページやパスワードを暗号化して保存する等の処理を実装</li>
+                <li>・Ajaxによる非同期処理のいいね機能搭載</li>
+                <li>・友人やSNSを通してアプリを実際に使ってもらい、運営している</li>
+                <li>・AWSのEC2インスタンスにデプロイして管理している</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-assistive-listening-systems"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">使用したGem</h4>
+              <ul>
+                <li>・bootstrap：レスポンシブデザイン</li>
+                <li>・Devise：ログイン機能</li>
+                <li>・activeadmin：アプリ管理画面</li>
+                <li>・carrierwave：画像アップロード</li>
+                <li>・rmagick：画像の加工</li>
+                <li>・pry-byebug：アプリデバッグ</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <h3 class="content_title">共同開発</h3>
+      <div class="container">
+
+        <div class="left_space">
+          <p>制作したアプリのイメージ</p>
+          <img src="image/gyakuten_clone.png" alt="逆転教材クローンアプリ1">
+          <p>trelloでアプリの進捗を管理</p>
+          <img src="image/gyakuten_trello.png" alt="逆転教材クローンアプリ2">
+        </div>
+
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">アプリの概要</h4>
+              <p class="red-bold">
+                3人1組による共同開発を経験しました。<br>
+                <br>
+              </p>
+              <ul>
+                <li>・所属するサロンの Web ページ(Rails)のクローンサイトをサロンのメンバーと共同で作成</li>
+                <li>・PM＋3人チームで共同開発で制作</li>
+                <li>・トップページの動画教材画面，質問投稿・応答画面の実装を担当</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">こだわりポイント</h4>
+              <ul>
+                <li>・所属するオンラインサロンのメンターがPMとなり、サロンメンバー3名で Web ページを開発</li>
+                <li>・trello でタスク管理。Slack を使用してコミュニケーション。</li>
+                <li>・ローカル環境で<span class="red-bold">branch を切って開発，プルリク，コンフリクトの解消の流れを学習</span></li>
+                <li>・変更箇所をメンバーに分かりやすく伝える事を意識してプルリクを作成</li>
+                <li>・利便性を考えてオリジナルサイトに無い Flash などの機能を追加</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center padding_top" id="section3">
+      <div class="front_text">Others<h2 class="back_text">Others</h2>
+      </div>
+
+      <h3 class="content_title">Qiita記事投稿</h3>
+      <div class="container">
+        <div class="left_space">
+          <p>Qiita 記事</p>
+          <a href="https://qiita.com/naozuminumata/items/eb8d12dfdeb5d2c8565e" target="_blank"><img
+              src="image/qiita.png" alt="Qiita記事"></a>
+        </div>
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-file-alt"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">Qiita 記事</h4>
+              <ul>
+                <li>・自分が調べた時に情報が少かった事を中心に，Qiita に投稿</li>
+                <li>・技術記事を投稿することで知識の定着に繋がる</li>
+                <li>・自身の備忘録になる</li>
+              </ul>
+            </div>
+          </section>
+          <p class="red-bold pt_30">→これからも学習して得た知識は，どんどん共有していきます。</p>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer class="footer_bottom">
+    <p>沼田　直純 Portfolio Site</p>
+  </footer>
+</body>
+
+</html>
